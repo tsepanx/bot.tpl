@@ -1,9 +1,9 @@
 import telegram as tg
 
-from ptb_wrapper.classes.chat import ChatHandler, BotMessageException
-from ptb_wrapper.classes.message import Message
-from ptb_wrapper.bot import Bot
-from ptb_wrapper.types import MESSAGE_TYPES
+from tglib.classes.chat import ChatHandler, BotMessageException
+from tglib.classes.message import Message
+from tglib.bot import Bot
+from tglib.types import MESSAGE_TYPES
 
 
 def some_bot_command_handler(chat: ChatHandler, _: tg.Update):
