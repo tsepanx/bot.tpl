@@ -6,7 +6,7 @@ from tglib.bot import Bot
 from tglib.types import MESSAGE_TYPES
 
 
-def some_bot_command_handler(chat: ChatHandler, _: tg.Update):
+def example_comand_handler(chat: ChatHandler, _: tg.Update):
     chat.send_message('you typed: /command')
 
 
@@ -16,7 +16,7 @@ class MyChatHandler(ChatHandler):
 
     class CommandsEnum(ChatHandler.CommandsEnum):
         # <command_name> - (description, func to run)
-        command = ('Some command description', some_bot_command_handler)
+        command = ('Some command description', example_comand_handler)
 
     def reply(self, update: tg.Update, message_type: MESSAGE_TYPES):  # On new message
         """
