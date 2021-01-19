@@ -1,3 +1,3 @@
 # Telegram Bot Template
 
-It's just a template for creating new bots using **[tglib](https://github.com/tsepanx/tglib)** library.
+It's an example project, describes writing Telegram bots with using my [tglib](https://github.com/tsepanx/tglib) repo as submodule
